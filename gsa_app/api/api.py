@@ -136,7 +136,6 @@ def upload_RankedList():
 def read_image_path():
    wd = os.getcwd()
    path =  wd + "/GSEA_Prerank/"  
-   print("PATH : ", path)  
    folder = os.fsencode(path)
    images = []
    for file in os.listdir(folder):

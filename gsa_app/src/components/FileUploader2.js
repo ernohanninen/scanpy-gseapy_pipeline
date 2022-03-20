@@ -13,8 +13,8 @@ Procedure:
   - Display elements to the user
 */
 
-import React, {useState, Component} from 'react';
-import axios from 'axios';
+import React, {useState} from 'react';
+
 
 export const FileUploader2 = () => {
   //initialize the variables

@@ -16,9 +16,8 @@ Procedure:
    
 */
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './App.css';
-import axios, { Axios } from 'axios';
 import { FileUploader1 } from "./components/FileUploader1"
 import { FileUploader2 } from "./components/FileUploader2"
 
@@ -67,7 +66,7 @@ function App() {
 
       <div hidden id="results">
         <header>
-          <p>Results are stored in /binp29_project/data/GSEA_Prerank folder</p>
+          <p>Results are stored in /scanpy-gseapy_pipeline/data/GSEA_Prerank folder</p>
           <a href="http://localhost:3000">Home page</a>    
         </header>
       </div>

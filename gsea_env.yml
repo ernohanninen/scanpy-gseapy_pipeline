@@ -1,4 +1,4 @@
-name: gsa
+name: gsea_env
 channels:
   - anaconda
   - defaults
