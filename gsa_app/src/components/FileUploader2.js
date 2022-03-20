@@ -14,7 +14,7 @@ Procedure:
 */
 
 import React, {useState} from 'react';
-
+import axios from 'axios';
 
 export const FileUploader2 = () => {
   //initialize the variables
@@ -39,7 +39,7 @@ export const FileUploader2 = () => {
     //Define the url where the files are send
     const url = '/uploadRankedFile';
     const formData1 = new FormData();
-    const formData2 = new FormData(); 
+  
     //Uploading the files to formData object
     formData1.append('file1', file1[0]);
     formData1.append("geneSetFile", file2)
