@@ -1,4 +1,4 @@
-# scanpy-gseapy_pipeline
+# scanpy-gseapy pipeline
 
 This application is a SCANPY-GSEAPY pipeline with a web interface. The SCANPY-GSEAPY pipeline is written using Python (3.8.5). Flask server connects the pipeline and ReactJS frontend. The application accepts ranked gene list or 10xGenomics gene expression dataset as input. If ranked list is inputted only GSEA part of pipeline is executed. If 10xGenomics gene expression dataset is inputted ranked gene list is computed and thereafter GSEA is performed to the ranked list. The pipeline outputs enrichment plots.
 <br/><br/>
